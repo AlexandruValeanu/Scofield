@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.8)
-project(BurrowsWheeler_transform)
+project(Scofield)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "-pthread -O3")
 
-set(SOURCE_FILES main.cpp)
-add_executable(BurrowsWheeler_transform ${SOURCE_FILES})
+set(SOURCE_FILES main.cpp strings_utility.cpp strings_utility.h burrows_wheeler_transform.cpp burrows_wheeler_transform.h constants.h header.cpp header.h)
+add_executable(Scofield ${SOURCE_FILES} strings_utility.cpp burrows_wheeler_transform.cpp burrows_wheeler_transform.h constants.h header.cpp header.h)

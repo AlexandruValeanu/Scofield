@@ -1,0 +1,8 @@
+#ifndef BURROWSWHEELER_TRANSFORM_STRINGS_UTILITY_H
+#define BURROWSWHEELER_TRANSFORM_STRINGS_UTILITY_H
+
+#include <string>
+
+std::string rotate_right(const std::string &s);
+
+#endif //BURROWSWHEELER_TRANSFORM_STRINGS_UTILITY_H
