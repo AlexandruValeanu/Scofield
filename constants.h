@@ -1,7 +1,7 @@
 #ifndef BURROWSWHEELER_TRANSFORM_CONSTANTS_H
 #define BURROWSWHEELER_TRANSFORM_CONSTANTS_H
 
-constexpr char END_SYMBOL = '$';
+constexpr char END_SYMBOL = 0b0011111; // unit separator ␟
 constexpr size_t MAX_LENGTH = 100;
 
 #endif //BURROWSWHEELER_TRANSFORM_CONSTANTS_H
